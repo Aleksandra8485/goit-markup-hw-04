@@ -166,9 +166,15 @@ img {
 .dark-bg {
     background-color: var(--navy-blue);
     max-width: 1600px;
-    background-image: url(../images/hero.jpg);
+    background-image: linear-gradient(
+            90deg,
+            rgba(47, 48, 58, 0.4) 0%,
+            rgba(47, 48, 58, 0.4) 0%
+        ),
+        url(../images/hero.jpg);
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .button-list {
