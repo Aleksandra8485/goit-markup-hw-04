@@ -109,6 +109,10 @@ img {
     flex-direction: row;
 }
 
+/*.contact-list svg {
+    margin-left: 10px;
+}*/
+
 .contact-list a {
     color: var(--light-grey);
     text-decoration: none;
@@ -159,6 +163,10 @@ img {
 
 .dark-bg {
     background-color: var(--navy-blue);
+    width: 1600px;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .button-list {
