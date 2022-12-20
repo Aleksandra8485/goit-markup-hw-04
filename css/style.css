@@ -13,6 +13,7 @@
     --navy-blue: #2f303a;
     --black-rock: #2f303a;
     --beige: #f5f4fa;
+    --background-dark-transparent: #2f303a66;
 }
 
 .container {
@@ -163,7 +164,7 @@ img {
 
 .dark-bg {
     background-color: var(--navy-blue);
-    width: 1600px;
+    max-width: 1600px;
     background-image: url(../images/hero.jpg);
     background-position: center;
     background-size: cover;
@@ -211,6 +212,13 @@ img {
     align-items: center;
     list-style: none;
     gap: 30px;
+}
+
+.lorem-icon {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: var(--beige);
+    border-radius: 4px;
 }
 
 .title-section {
