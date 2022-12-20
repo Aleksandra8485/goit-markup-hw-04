@@ -404,3 +404,37 @@ img {
     padding-left: 0;
     gap: 9px;
 }
+
+.footer-items {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.join-social-media {
+    padding-left: 70px;
+}
+
+.join-us {
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.footer-icons {
+    fill: var(--white-color);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    padding: 12px;
+    align-items: center;
+}
+
+.join-social-media h3 {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03rem;
+}
