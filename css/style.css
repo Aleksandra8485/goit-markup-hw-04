@@ -38,7 +38,8 @@ figure {
     padding: 0;
 }
 
-img {
+img,
+svg {
     vertical-align: middle;
 }
 
@@ -436,6 +437,8 @@ img {
     cursor: pointer;
     padding: 12px;
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .join-social-media h3 {
