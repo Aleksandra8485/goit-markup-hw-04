@@ -279,6 +279,8 @@ svg {
 .social-icon {
     fill: var(--icon-color);
     padding: 12px;
+    display: flex;
+    align-items: center;
 }
 
 .social-icon:hover,
@@ -449,7 +451,8 @@ svg {
 }
 
 .join-social-media {
-    padding-left: 70px;
+    margin-top: 12px;
+    margin-left: 70px;
 }
 
 .join-us {
