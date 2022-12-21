@@ -15,6 +15,7 @@
     --beige: #f5f4fa;
     --background-dark-transparent: #2f303a66;
     --icon-color: #afb1b8;
+    --border-color: #eeeeee;
 }
 
 .container {
@@ -313,6 +314,13 @@ svg {
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
+}
+
+.photo-portfolio-shadow:hover {
+    border: 1px solid var(--border-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
 }
 
 .second-section-list p {
