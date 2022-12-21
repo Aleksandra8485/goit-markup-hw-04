@@ -342,7 +342,7 @@ svg {
 
 .company:hover,
 .company:focus {
-    color: var(--primary-color);
+    fill: var(--primary-color);
     border-color: var(--primary-color);
 }
 
