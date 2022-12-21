@@ -265,10 +265,19 @@ svg {
     align-items: center;
     gap: 10px;
     list-style: none;
+    margin-top: 16px;
 }
 
 .social-icon {
     fill: var(--icon-color);
+    padding: 12px;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    fill: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50%;
 }
 
 .projects h3 {
