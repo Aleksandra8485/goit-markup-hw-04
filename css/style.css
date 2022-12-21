@@ -141,6 +141,16 @@ svg {
 
 .first-section {
     text-align: center;
+    background-color: var(--navy-blue);
+    background-image: linear-gradient(
+            90deg,
+            rgba(47, 48, 58, 0.4) 0%,
+            rgba(47, 48, 58, 0.4) 0%
+        ),
+        url(../images/hero.jpg);
+    background-position: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
 }
 
 .first-section h1 {
@@ -166,20 +176,6 @@ svg {
     height: 50px;
 }
 
-.dark-bg {
-    background-color: var(--navy-blue);
-    max-width: 1600px;
-    background-image: linear-gradient(
-            90deg,
-            rgba(47, 48, 58, 0.4) 0%,
-            rgba(47, 48, 58, 0.4) 0%
-        ),
-        url(../images/hero.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
-}
-
 .button-list {
     list-style: none;
     display: flex;
@@ -197,6 +193,9 @@ svg {
 }
 .portfolio-button {
     padding: 6px 22px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-button:hover,
