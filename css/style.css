@@ -363,6 +363,7 @@ svg {
     border-radius: 4px;
     fill: var(--icon-color);
     padding: 18px 32px 14px 32px;
+    outline: none;
 }
 
 .company:hover,
