@@ -111,9 +111,13 @@ img {
     flex-direction: row;
 }
 
-/*.contact-list svg {
-    margin-left: 10px;
-}*/
+.contact-icon {
+    display: flex;
+}
+
+.icon {
+    fill: currentColor;
+}
 
 .contact-list a {
     color: var(--light-grey);
