@@ -112,10 +112,7 @@ img {
 }
 
 .contact-icon {
-    display: flex;
-}
-
-.icon {
+    margin-right: 10px;
     fill: currentColor;
 }
 
