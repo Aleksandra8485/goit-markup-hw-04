@@ -456,6 +456,13 @@ svg {
     justify-content: center;
 }
 
+.footer-icons:hover,
+.footer-icons:focus {
+    fill: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
 .join-social-media h3 {
     color: var(--white-color);
     font-weight: 700;
